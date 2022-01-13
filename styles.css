@@ -8,17 +8,25 @@ a:active {
   color: #7ab6a3;
 }
 .header {
+  position: relative;
   height: 150px;
 }
 img {
   height: 70px;
 }
 .header__menu {
+  position: relative;
   display: inline-flex;
-  flex-direction: row;
+  justify-content: space-between;
+  font-size: x-large;
 }
 ul {
+  position: relative;
   list-style: none;
+  display: inline-flex;
+}
+li {
+  margin: 20px;
 }
 .header__input {
   border-radius: 30px;
@@ -29,4 +37,12 @@ ul {
 .header__button {
   background-color: #3bd2a2;
   border-radius: 30px;
+}
+.submit-box {
+  margin-right: 10px;
+}
+
+.fas {
+  font-size: large;
+  color: #3bd2a2;
 }
