@@ -32,14 +32,17 @@ li {
   margin: 15px;
 }
 .header__input {
-  border-radius: 30px;
+  color: #7ab6a3;
 }
-.header__input::before {
-  content: "Login";
-}
-.header__button {
+#header__but {
   background-color: #3bd2a2;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
   border-radius: 30px;
+  width: 130px;
+  height: 20px;
 }
 @media (max-width: 900px) {
   .header__menu {
@@ -48,6 +51,9 @@ li {
 }
 .submit-box {
   position: absolute;
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
   top: 36px;
   right: 10px;
   margin-right: 10px;
