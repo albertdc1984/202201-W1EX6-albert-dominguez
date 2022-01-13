@@ -1,0 +1,32 @@
+* {
+  font-family: "Karla", sans-serif;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #7ab6a3;
+}
+.header {
+  height: 150px;
+}
+img {
+  height: 70px;
+}
+.header__menu {
+  display: inline-flex;
+  flex-direction: row;
+}
+ul {
+  list-style: none;
+}
+.header__input {
+  border-radius: 30px;
+}
+.header__input::before {
+  content: "Login";
+}
+.header__button {
+  background-color: #3bd2a2;
+  border-radius: 30px;
+}
